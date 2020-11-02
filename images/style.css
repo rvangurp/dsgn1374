@@ -1,0 +1,122 @@
+/* Images */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFFFFF;
+	color: #333333;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight: 400;
+	line-height: 1.4;
+	font-size: 1em;
+	margin: 0.25em;
+	background-image: url(img/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1 {
+	font-family: 'Courier Prime', 'courier new', monospace;
+	font-weight: 700;
+	color: #333333;
+	margin-top: 1em;
+	margin-bottom: 0em;
+	margin-left: 1.5em;
+	padding: 0em;
+}
+
+p {
+	display: block;
+	margin-left: 3em;
+	max-width: 26em;
+	font-size: 1em;
+	color: #333333;
+	line-height: 1.2em;
+	padding-bottom: 1em;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	justify-content: space-around;
+	margin-left: 1.5em;
+}
+
+.item {
+	width: 33.33%;
+	padding: .5em;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #b9d0c8;
+}
+
+.item:hover .overlay {
+  opacity: .8;
+  border-radius: 2em;
+}
+
+.text {
+  color: #111111;
+  font-size: 1.2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Courier Prime', 'courier new', monospace;
+	font-weight: 700;
+}
+
+.rounded-corners {
+border-radius: 2em;
+}
+
+a:link {
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Courier Prime', 'courier new', monospace;
+  color: #333333;
+}
+
+a:visited {
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Courier Prime', 'courier new', monospace;
+  color: #333333;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: 700;
+  font-family: 'Courier Prime', 'courier new', monospace;
+  color: #666666;
+}
+
+a:active {
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Courier Prime', 'courier new', monospace;
+  color: #333333;
+}
