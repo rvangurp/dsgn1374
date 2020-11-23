@@ -1,7 +1,120 @@
 <!DOCTYPE html>
 <head>
-	<title>A website is never finished</title>
+	<title>Interview</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,300;1,500&display=swap" rel="stylesheet"> 
+	<meta name="viewport" content="width=device-width">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function() { 
+    	  $('span.pull-right').each(function(index) { 
+    		var $parentParagraph = $(this).parent('p'); 
+    		$parentParagraph.css('position', 'relative'); 
+    		$(this).clone() 
+    		  .addClass('pulled-right') 
+    		  .prependTo($parentParagraph); 
+    	  }); 
+    	$('span.pull-left').each(function(index) { 
+    		var $parentParagraph = $(this).parent('p'); 
+    		$parentParagraph.css('position', 'relative'); 
+    		$(this).clone() 
+    		  .addClass('pulled-left') 
+    		  .prependTo($parentParagraph); 
+    	  });
+    	}); 
+    </script>
 </head>
 <body>
-	<p>Please check back later.</p>
+
+	<main>
+
+		
+
+<div class="container">
+
+	<h1>Interview with the Artist</h1>
+
+	<div class="avatar">
+		<img src="img/ruth.jpg" alt="photo">
+	</div>
+
+	<div class="bio">
+		"This self-written interview briefly explains my thoughts on design and how it relates to the web. These musings are based on my experience as an artist and interdisciplinary designer."
+	</div>
+
+		<div class="q">
+			<h2>Q. 1)	What does “design” mean to you?</h2>
+		</div>
+
+		<div class="a">
+		<p>Design to me is like art—but with a functional purpose. Not necessarily, but often commercial. To me, designers are educated people who intentionally use (or sometimes defy) set conventions to create something for a specific purpose, to communicate a specific message, or to achieve a specific goal.</p>
+	</div>
+
+		<div class="q">
+			<h2>Q. 2)	How is “design” different from Fine Art?</h2>
+		</div>
+
+		<div class="a">
+		<p>Art is more involved with the creative process (ie: personal expression, exploring ideas), whereas design is more intentional and results based.In their creative process, designers must always consider how their work will influence, affect, be interpreted, or otherwise be utilized by others.</p>
+	</div>
+
+		<div class="q">
+			<h2>Q. 3)	What are some important issues that you think designers face today?</h2>
+		</div>
+
+		<div class="a">
+		<p style="position: relative;"><span class="pull-right pulled-right">"Designers today need to be aware of what affect their products have on society."</span> Designers today need to be aware of what affect their products have on society. For instance, what messages are they promoting, and are they biased? Are the products they are helping promote ethically produced or ethically sourced? Are their designs accessible to a range of persons, including those with varying disabilities? What impact do their designs have on the environment? These are all things designers must take into account.</p>
+	</div>
+
+		<div class="q">
+			<h2>Q. 4)	How has the proliferation of digital technology (ie: personal computers, the internet) affected design? For example, how designers make things, what they make, and how they share their work?</h2>
+		</div>
+
+		<div class="a">
+		<p>I think digital technology has made design more accessible, replacing a lot of expensive, archaic equipment. It is also possible for designers to promote themselves to a global audience, and to inspire or be inspired by others. However, this also makes the design industry more competitive, and can even lower the perception people have of designers, because the tools are so accessible.</p>
+	</div>
+
+		<div class="q">
+			<h2>Q. 5)	What’s your favourite website? What do you like about it?</h2>
+		</div>
+
+		<div class="a">
+		<p>I don’t know if I have a favourite website. Does social media count? If so, I might say Facebook. To be clear I think there are many things wrong with Facebook, and there are many insidious aspects of Facebook algorithms and marketing that I do not like. However, in its purest form Facebook does help foster connections between people and facilitates the communication of images and ideas on a global scale, and is free to use. So the good comes with the bad. </p>
+	</div>
+
+		<div class="q">
+			<h2>Q. 6)	How (in your experience) has the web changed? </h2>
+		</div>
+
+		<div class="a">
+		<p>One thing I weirdly miss about the “old web” (eg: late 90’s, early 2000’s) was how personal it was. There were page generating tools, but nothing really slick like Wordpress, so there were so many ugly hand-made websites with crummy animated GIF’s and auto-playing midi’s and the like. People used to spend a lot of time making websites about their personal interests--not just reposting memes. The web was also freer. You could share content (ie: music, movies) without the threat of a hundred viruses, or a lawsuit. Now there are fewer platforms and bigger companies that control them, and censor what content people can and can’t share.</p>
+	</div>
+
+		<div class="q">
+			<h2>Q. 7)	How do you think the web will change in the future?</h2>
+		</div>
+
+		<div class="a">
+		<p>I think that the web will be more interactive, and may integrate more new technology like virtual reality (VR) and augmented reality. I also think advertising will become even more invasive, and more targeted through the use of algorithms and AI. </p>
+	</div>
+
+		<div class="q">
+			<h2>Q. 8)	If you could change one thing about the web, what would it be?</h2>
+		</div>
+
+		<div class="a">
+		<p>I think the web should become more democratic again. There should be more free platforms where people can share their content and ideas without risk of censorship or their personal data being harvested and sold. <em>The web should not manipulate us—we should manipulate the web.</em></p>
+	</div>
+
+
+</div>
+
+<div class="footer">
+	<p>&copy; Ruth Van Gurp, 2020</p>
+</div>
+
+	</main>
+
 </body>
