@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+	<title>Rain</title>
+	<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,900;1,200;1,400&family=Source+Code+Pro:wght@300;400&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width">
+
+</head>
+<body class="rain">
+
+	<audio id="myAudio">
+  <source src="audio/rain.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
+	<main>
+
+		<div class="gridpad">
+
+			<div class="item">
+				<h1>rain</h1>
+				<button onclick="playAudio()" type="button">Play Audio</button>
+				<button onclick="pauseAudio()" type="button">Pause Audio</button> 
+
+			</div> <!-- /end item -->
+
+			<div class="item">
+				<a href="index.html">Home</a> &emsp;
+				<a href="response1.html">Back</a>
+				
+			</div> <!-- /end item -->
+
+		</div> <!-- /end grid -->
+
+	</main>
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
+
+</body>

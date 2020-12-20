@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+	<title>Responses | My website is a shifting house next to a river of knowledge. What could yours be?</title>
+	<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,900;1,200;1,400&family=Source+Code+Pro:wght@300;400&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width">
+
+<script>
+var randomlinks=new Array()
+
+randomlinks[0]="waves.html"
+randomlinks[1]="rain.html"
+randomlinks[2]="fire.html"
+randomlinks[3]="forest.html"
+
+function randomlink(){
+window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+}
+</script>
+
+</head>
+<body class="response1">
+
+		<!-- Site Header -->
+	<header>
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="response1.html">Response 1</a>
+			<a href="response2.html">Response 2</a>
+		</nav>
+	</header>
+	<!-- /End Site Header -->
+
+	<main>
+
+		<div class="gridpad">
+
+			<div class="item">
+				<h1>My website is...</h1>
+			
+<button onclick="randomlink()" type="button">a portal</button>
+
+			</div> <!-- /end item -->
+
+
+		</div> <!-- /end grid -->
+
+	</main>
+
+
+</body>
