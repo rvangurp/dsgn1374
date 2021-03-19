@@ -1,0 +1,95 @@
+/* MOVEABLE TYPE EXPERIMENT */
+
+
+
+/* Base styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Chango', impact, sans-serif;
+  font-weight: bold;
+  color: #CCCCCC;
+  background-color: #000000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  display: grid;
+  align-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+/* Succulent */
+
+.text {
+  text-align: center;
+  font-size: 5em;
+  font-weight: normal;
+  animation-name: from-top;
+  animation-duration: 1.25s;
+  animation-timing-function: ease-in-out;
+  letter-spacing: -0.1em;
+}
+
+.text span {
+animation-name: jump;
+animation-duration: 0.5s;
+animation-delay: 1.5s;
+display: inline-block;
+}
+
+/* Animation */
+
+@keyframes from-top {
+
+  0% {
+    transform: translateY(-100vh);
+  }
+
+50% {
+  transform: translateY(5vh);
+}
+
+80% {
+  transform: translateY(-2vh);
+}
+
+90% {
+  transform: translateY(0.5vh);
+}
+
+95% {
+  transform: translateY(-0.25vh);
+}
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes jump {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(2em);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
