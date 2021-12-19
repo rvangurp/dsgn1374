@@ -134,7 +134,7 @@ a:visited {
 .toggle {
   cursor: pointer;
   transition: opacity 0.25s;
-  padding-top: 23px;
+  padding-top: 13px;
 }
 
 .toggle:hover {
